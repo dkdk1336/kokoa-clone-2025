@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "reset.css";
+@import "variables.css";
 @import "status-bar.css";
 
 body {
@@ -28,4 +29,29 @@ body {
 .welcome-header__text {
     width: 60%;
     opacity: 0.6;
-}3
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+#login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* 로그인 폼의 입력 필드에 (포커스)눌렀을 때 테두리 색상을 변경 */
+#login-form input:focus {
+    border-color: var(--yellow);
+}

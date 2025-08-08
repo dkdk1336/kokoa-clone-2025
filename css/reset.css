@@ -48,3 +48,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* CSS Reset End */
+
+/* input 모든 아웃라인 제거 */
+input:focus {
+	outline: none;
+}
