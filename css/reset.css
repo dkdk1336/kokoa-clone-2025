@@ -55,6 +55,7 @@ input:focus {
 	outline: none;
 }
 
+/* a 태그 모든 스타일 제거 */
 a {
 	color: inherit;
 	text-decoration: none;
