@@ -13,6 +13,7 @@
 @import "screens/login.css";
 @import "screens/friends.css";
 
+/* 구글 폰트 값 */
 body {
   color: #2f363e;
   height: 1000vh;
