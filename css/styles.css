@@ -23,3 +23,7 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

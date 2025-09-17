@@ -1,6 +1,6 @@
 /* variables.css은 CSS에서 변수를 정의하는 파일입니다. */
 
-/* 내가 설정한 노란색 변수 */
+/* 내가 기본으로 설정한 고정 값 */
 :root {
     --yellow: #FAE100;
     --horizontal-space: 25px;
