@@ -4,7 +4,7 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  color: green;
 }
 
 /* flex-direction: column은 아이콘과 텍스트를 세로로 정렬 */
@@ -21,4 +21,24 @@
 
 .find-icons__icon span {
   margin-top: 20px;
+}
+
+.recommended-friends {
+  margin: 25px 0px;
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-friends__title {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends span {
+  margin: 100px 0;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
 }
