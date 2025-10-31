@@ -1,28 +1,3 @@
-/*  display: flex는 한 줄로 나열
-    justify-content: space-between은 아이콘 사이의 간격을 조절합니다. */
-
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  color: green;
-}
-
-/* flex-direction: column은 아이콘과 텍스트를 세로로 정렬 */
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icon i {
-  font-size: 35px;
-  margin-bottom: 4px;
-}
-
-.find-icons__icon span {
-  margin-top: 20px;
-}
-
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;

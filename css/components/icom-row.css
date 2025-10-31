@@ -1,0 +1,24 @@
+/*  display: flex는 한 줄로 나열
+    justify-content: space-between은 아이콘 사이의 간격을 조절합니다. */
+
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  color: green;
+}
+
+/* flex-direction: column은 아이콘과 텍스트를 세로로 정렬 */
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+  margin-bottom: 4px;
+}
+
+.icon-row__icon span {
+  margin-top: 20px;
+}
